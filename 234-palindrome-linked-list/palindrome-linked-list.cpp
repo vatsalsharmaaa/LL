@@ -1,3 +1,6 @@
+//app 1 toh simple hai ki vector mai store karva le and simply two pointers
+//app 2 is ki middle node nikal and reverse the second half of the LL and iterate over both ll
+//app3 jo hamne kari bhi h yaha ki while slow and fast,,,,usi time reverse krte chalo first half ko then simply slow->val and prev ki val ko compare karlo
 class Solution {
 public:
   bool isPalindrome(ListNode* head) {
