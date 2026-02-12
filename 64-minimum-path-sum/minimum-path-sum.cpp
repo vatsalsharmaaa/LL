@@ -2,14 +2,10 @@ class Solution {
 public:
     int dp[201][201];
     int n, m;
-
-    int solve(vector<vector<int>>& grid, int i, int j) {
-
-       
+    int solve(vector<vector<int>>& grid, int i, int j) {  
         if (i >= n || j >= m) 
             return INT_MAX;
 
-        
         if (i == n-1 && j == m-1)
             return grid[i][j];
 
